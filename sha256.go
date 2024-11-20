@@ -89,7 +89,7 @@ func sha256(msg []byte) [32]byte {
 }
 
 func main() {
-	message := "Hello, World!"
+	message := "Abhyudaya"
 	hash := sha256([]byte(message))
 	fmt.Printf("SHA-256 hash: %x\n", hash)
 }
